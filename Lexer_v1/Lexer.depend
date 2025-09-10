@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1757460000 source:c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\main.cpp
+	<iostream>
+	"Lexer.h"
+
+1757460071 source:c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\src\lexer.cpp
+	"Lexer.h"
+	<stdexcept>
+
+1757458262 c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\include\lexer.h
+	<string>
+	<vector>
+	"Token.h"
+
+1757458207 c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\include\token.h
+	<string>
+	"TipoDeToken.h"
+
+1757458207 c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\include\tipodetoken.h
+
