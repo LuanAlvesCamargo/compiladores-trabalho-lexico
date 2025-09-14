@@ -30,14 +30,13 @@ std::vector<Token> Lexer::Analisar() {
         else if (c == '{') { q12(); continue; }
         else if (c == '}') { q14(); continue; }
         else if (c == '[') { q15(); continue; }
-        else if (c == ']') { q17(); continue; }
-        else if (c == ',') { q18(); continue; }
-        else if (c == '.') { q23(); continue; }
-        else if (c == ':') { q24(); continue; }
-        else if (c == '?') { q25(); continue; }
-        else if (c == '"') { q20(); continue; }
+        else if (c == ']') { q16(); continue; }
+        else if (c == ',') { q17(); continue; }
+        else if (c == '.') { q18(); continue; }
+        else if (c == ':') { q19(); continue; }
+        else if (c == '?') { q20(); continue; }
+        else if (c == '"') { q22(); continue; }
         else {
-            // Token inválido
             std::string lex(1, c);
             tokens.push_back(Token(TipoDeToken::TOKEN_INVALIDO, lex));
             i++;
@@ -46,7 +45,6 @@ std::vector<Token> Lexer::Analisar() {
     return tokens;
 }
 
-// ------------------ ESTADOS ------------------
 
 void Lexer::q0() { i++; }
 
@@ -90,26 +88,22 @@ void Lexer::q6() { i++; }
 void Lexer::q7() { lexema = codigo[i++]; if (i<codigo.size() && codigo[i]=='='){ lexema+=codigo[i++]; } tokens.push_back(Token(TipoDeToken::OPERADOR_RELACIONAL, lexema)); }
 void Lexer::q8() { lexema = codigo[i++]; if (i<codigo.size() && codigo[i]==lexema[0]) lexema+=codigo[i++]; tokens.push_back(Token(TipoDeToken::OPERADOR_LOGICO, lexema)); }
 void Lexer::q9() { tokens.push_back(Token(TipoDeToken::ABRE_PARENTESES, std::string(1, codigo[i++]))); }
-void Lexer::q10() { i++; } // Placeholder
-void Lexer::q11() { tokens.push_back(Token(TipoDeToken::FECHA_PARENTESES, std::string(1, codigo[i++]))); }
-void Lexer::q12() { tokens.push_back(Token(TipoDeToken::ABRE_CHAVES, std::string(1, codigo[i++]))); }
-void Lexer::q13() { i++; } // Placeholder
-void Lexer::q14() { tokens.push_back(Token(TipoDeToken::FECHA_CHAVES, std::string(1, codigo[i++]))); }
-void Lexer::q15() { tokens.push_back(Token(TipoDeToken::ABRE_COLCHETES, std::string(1, codigo[i++]))); }
-void Lexer::q16() { i++; } // Placeholder
-void Lexer::q17() { tokens.push_back(Token(TipoDeToken::FECHA_COLCHETES, std::string(1, codigo[i++]))); }
-void Lexer::q18() { tokens.push_back(Token(TipoDeToken::VIRGULA, std::string(1, codigo[i++]))); }
-void Lexer::q19() { lexema += codigo[i++]; while (i<codigo.size() && isDigito(codigo[i])) lexema+=codigo[i++]; tokens.push_back(Token(TipoDeToken::NUMERO_REAL, lexema)); }
-void Lexer::q20() { i++; lexema=""; while(i<codigo.size() && codigo[i]!='"') lexema+=codigo[i++]; i++; tokens.push_back(Token(TipoDeToken::STRING, lexema)); }
-void Lexer::q21() { i++; } // Placeholder
-void Lexer::q22() { i++; } // Placeholder
-void Lexer::q23() { tokens.push_back(Token(TipoDeToken::PONTO, std::string(1,codigo[i++]))); }
-void Lexer::q24() { tokens.push_back(Token(TipoDeToken::DOIS_PONTOS, std::string(1,codigo[i++]))); }
-void Lexer::q25() { tokens.push_back(Token(TipoDeToken::INTERROGACAO, std::string(1,codigo[i++]))); }
-void Lexer::q26() { i++; } // Placeholder
-void Lexer::q27() { i++; } // Placeholder
+void Lexer::q10() { tokens.push_back(Token(TipoDeToken::FECHA_PARENTESES, std::string(1, codigo[i++]))); }
+void Lexer::q11() { tokens.push_back(Token(TipoDeToken::ABRE_CHAVES, std::string(1, codigo[i++]))); }
+void Lexer::q12() { tokens.push_back(Token(TipoDeToken::FECHA_CHAVES, std::string(1, codigo[i++]))); }
+void Lexer::q13() { tokens.push_back(Token(TipoDeToken::ABRE_COLCHETES, std::string(1, codigo[i++]))); }
+void Lexer::q14() { tokens.push_back(Token(TipoDeToken::FECHA_COLCHETES, std::string(1, codigo[i++]))); }
+void Lexer::q15() { tokens.push_back(Token(TipoDeToken::VIRGULA, std::string(1, codigo[i++]))); }
+void Lexer::q16() { lexema += codigo[i++]; while (i<codigo.size() && isDigito(codigo[i])) lexema+=codigo[i++]; tokens.push_back(Token(TipoDeToken::NUMERO_REAL, lexema)); }
+void Lexer::q17() { i++; lexema=""; while(i<codigo.size() && codigo[i]!='"') lexema+=codigo[i++]; i++; tokens.push_back(Token(TipoDeToken::STRING, lexema)); }
+void Lexer::q18() { i++; }
+void Lexer::q19() { i++; }
+void Lexer::q20() { tokens.push_back(Token(TipoDeToken::PONTO, std::string(1,codigo[i++]))); }
+void Lexer::q21() { tokens.push_back(Token(TipoDeToken::DOIS_PONTOS, std::string(1,codigo[i++]))); }
+void Lexer::q22() { tokens.push_back(Token(TipoDeToken::INTERROGACAO, std::string(1,codigo[i++]))); }
+void Lexer::q23() { i++; }
+void Lexer::q24() { i++; }
 
-// ------------------ AUXILIARES ------------------
 bool Lexer::isEspaco(char c) { return c==' '||c=='\t'||c=='\r'||c=='\n'; }
 bool Lexer::isDigito(char c) { return c>='0' && c<='9'; }
 bool Lexer::isLetra(char c) { return std::isalpha(static_cast<unsigned char>(c)); }

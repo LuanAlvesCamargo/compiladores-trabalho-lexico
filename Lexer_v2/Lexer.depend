@@ -45,3 +45,22 @@
 	<stdexcept>
 	<string>
 
+1757881180 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/main.cpp
+	<iostream>
+	"LexerTest.h"
+
+1757881229 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/LexerTest.h
+	"Lexer.h"
+	<iostream>
+
+1757882155 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/Lexer.h
+	<string>
+	<vector>
+	"Token.h"
+
+1757881139 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/Token.h
+	<string>
+	"TipoDeToken.h"
+
+1757881144 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/TipoDeToken.h
+
