@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1757460000 source:c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\main.cpp
+	<iostream>
+	"Lexer.h"
+
+1757460071 source:c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\src\lexer.cpp
+	"Lexer.h"
+	<stdexcept>
+
+1757458262 c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\include\lexer.h
+	<string>
+	<vector>
+	"Token.h"
+
+1757458207 c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\include\token.h
+	<string>
+	"TipoDeToken.h"
+
+1757458207 c:\users\alunos.desktop-8slhjj7\documents\heleno\lfa\2 bim\lexer\include\tipodetoken.h
+
+1757881180 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v1/main.cpp
+	<iostream>
+	"LexerTest.h"
+
+1757881160 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v1/include/Lexer.h
+	<string>
+	<vector>
+	"Token.h"
+
+1757881139 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v1/include/Token.h
+	<string>
+	"TipoDeToken.h"
+
+1757881144 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v1/include/TipoDeToken.h
+
+1757881205 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v1/src/Lexer.cpp
+	"Lexer.h"
+	<cctype>
+
+1757881229 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v1/include/LexerTest.h
+	"Lexer.h"
+	<iostream>
+
+1757878664 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v1/include/LexerException.h
+	<stdexcept>
+	<string>
+
+1757881180 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/main.cpp
+	<iostream>
+	"LexerTest.h"
+
+1757881229 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/LexerTest.h
+	"Lexer.h"
+	<iostream>
+
+1757882155 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/Lexer.h
+	<string>
+	<vector>
+	"Token.h"
+
+1757881139 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/Token.h
+	<string>
+	"TipoDeToken.h"
+
+1757881144 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2/include/TipoDeToken.h
+
+1757899250 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v3/main.cpp
+	<iostream>
+	"Lexer.h"
+
+1757899456 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v3/include/Lexer.h
+	<string>
+	<vector>
+	"Token.h"
+
+1757899365 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v3/include/Token.h
+	<string>
+	"TipoDeToken.h"
+
+1757899380 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v3/include/TipoDeToken.h
+
+1757899183 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v3/src/Lexer.cpp
+	"Lexer.h"
+	<cctype>
+	<iostream>
+
