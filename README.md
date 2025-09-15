@@ -37,6 +37,16 @@ Implementar a análise léxica de um compilador, identificando tokens como ident
 - **q20** → Ponto `.`
 - **q21** → Dois pontos `:`
 - **q22** → Interrogação `?`
+- **q23** → Abre Aspas '"'
+- **q23** → Fecha Aspas '"'
+
+## 🖼 Imagens do Projeto
+
+**Diagrama geral do compilador:**  
+![Compilador](imagem.png)
+
+**Lexer e análise léxica:**  
+![Lexer](lexer.png)
 
 ## ▶️ Como compilar e executar
 
