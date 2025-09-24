@@ -8,6 +8,10 @@ class LexerTest {
 public:
     static void executarTestes() {
         std::string codigo = R"(
+
+            Santos campeão!
+            O melhor time do mundo mostrou mais uma vez sua grandeza e paixão dentro de campo.
+            Essa conquista é fruto de muita garra, união e amor pelo manto sagrado.
             x == y
 
             int main() {
@@ -32,6 +36,10 @@ public:
                 a = b ? x : y;
                 cout << s;
                 @  # caractere inválido
+
+                abacate
+
+
             }
         )";
 

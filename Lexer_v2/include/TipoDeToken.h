@@ -24,6 +24,8 @@ enum class TipoDeToken {
     INTERROGACAO,
     INCREMENTO,
     DECREMENTO,
+    ABRE_ASPAS,
+    FECHA_ASPAS,
     TOKEN_INVALIDO
 };
 
