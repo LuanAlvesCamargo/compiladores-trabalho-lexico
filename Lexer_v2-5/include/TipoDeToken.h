@@ -1,0 +1,33 @@
+#ifndef TIPODETOKEN_H
+#define TIPODETOKEN_H
+
+// Enumeração para os tipos de tokens que o analisador léxico pode reconhecer.
+enum class TipoDeToken {
+    PALAVRA_RESERVADA,
+    IDENTIFICADOR,
+    NUMERO_INTEIRO,
+    NUMERO_REAL,
+    STRING,
+    OPERADOR_ARITMETICO,
+    INCREMENTO,
+    DECREMENTO,
+    OPERADOR_ATRIBUICAO,
+    OPERADOR_RELACIONAL,
+    OPERADOR_LOGICO,
+    PONTO_E_VIRGULA,
+    ABRE_PARENTESES,
+    FECHA_PARENTESES,
+    ABRE_CHAVES,
+    FECHA_CHAVES,
+    ABRE_COLCHETES,
+    FECHA_COLCHETES,
+    PONTO,
+    VIRGULA,
+    DOIS_PONTOS,
+    INTERROGACAO,
+    ABRE_ASPAS,
+    FECHA_ASPAS,
+    TOKEN_INVALIDO
+};
+
+#endif // TIPODETOKEN_H
