@@ -45,8 +45,8 @@ public:
     }
 
 private:
-    TipoDeToken tipo;     // ✅ colocado antes
-    std::string lexema;   // ✅ depois
+    std::string lexema;
+    TipoDeToken tipo;
 };
 
 #endif // TOKEN_H

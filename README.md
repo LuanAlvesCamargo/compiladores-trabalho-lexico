@@ -38,7 +38,7 @@ Implementar a análise léxica de um compilador, identificando tokens como ident
 - **q21** → Dois pontos `:`
 - **q22** → Interrogação `?`
 - **q23** → Abre Aspas '"'
-- **q23** → Fecha Aspas '"'
+- **q24** → Fecha Aspas '"'
 
 ## 🖼 Imagens do Projeto
 
@@ -76,3 +76,8 @@ Luan Camargo
 Matheus Andrade
 
 Leonardo Neto
+
+            Santos campeão!
+            O melhor time do mundo mostrou mais uma vez sua grandeza e paixão dentro de campo.
+            Essa conquista é fruto de muita garra, união e amor pelo manto sagrado.
+            x == y

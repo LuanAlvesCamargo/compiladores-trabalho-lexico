@@ -1,10 +1,9 @@
 #ifndef LEXER_H
 #define LEXER_H
 
-#include "Token.h"
-#include "LexerException.h"
 #include <string>
 #include <vector>
+#include "Token.h"
 
 class Lexer {
 public:
@@ -12,13 +11,12 @@ public:
     std::vector<Token> Analisar();
 
 private:
-    std::string codigo;
-    std::string lexema;
-    size_t i;
-    int estado_atual;
+    std::string codigo, lexema;
+    int i, estado_atual;
     std::vector<Token> tokens;
 
     void inicializar();
+
     void q0();
     void q1();
     void q2();
@@ -44,9 +42,6 @@ private:
     void q22();
     void q23();
     void q24();
-
-    void q_exclamacao();          // ✅ adicionado
-    void q_aritmetico_simples();  // ✅ adicionado
 
     bool isEspaco(char c);
     bool isDigito(char c);

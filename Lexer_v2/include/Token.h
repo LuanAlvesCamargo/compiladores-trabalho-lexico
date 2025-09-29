@@ -39,7 +39,7 @@ public:
             case TipoDeToken::DECREMENTO: return "DECREMENTO";
             case TipoDeToken::ABRE_ASPAS: return "ABRE_ASPAS";
             case TipoDeToken::FECHA_ASPAS: return "FECHA_ASPAS";
-            case TipoDeToken::TOKEN_INVALIDO: return "TOKEN_INVALIDO";
+            case TipoDeToken::TOKEN_INVALIDO: return "  ";
             default: return "DESCONHECIDO";
         }
     }
