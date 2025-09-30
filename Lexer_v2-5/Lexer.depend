@@ -72,22 +72,22 @@
 	<iostream>
 	"LexerTest.h"
 
-1759187069 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/LexerTest.h
+1759270175 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/LexerTest.h
 	"Lexer.h"
 	<iostream>
 
-1759185504 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/Lexer.h
+1759254565 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/Lexer.h
 	<string>
 	<vector>
 	"Token.h"
 
-1759172078 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/Token.h
+1759254504 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/Token.h
 	<string>
 	"TipoDeToken.h"
 
-1759172071 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/TipoDeToken.h
+1759251398 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/include/TipoDeToken.h
 
-1759186973 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/src/Lexer.cpp
+1759254487 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Lexer_v2-5/src/Lexer.cpp
 	"Lexer.h"
 	<cctype>
 	<string>

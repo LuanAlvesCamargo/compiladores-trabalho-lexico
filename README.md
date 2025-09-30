@@ -72,12 +72,3 @@ Implementar a análise léxica de um compilador, identificando tokens como ident
 ## 📌 Autores
 
 Luan Camargo
-
-Matheus Andrade
-
-Leonardo Neto
-
-            Santos campeão!
-            O melhor time do mundo mostrou mais uma vez sua grandeza e paixão dentro de campo.
-            Essa conquista é fruto de muita garra, união e amor pelo manto sagrado.
-            x == y
