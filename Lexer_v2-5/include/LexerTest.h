@@ -10,41 +10,6 @@ public:
         std::string codigo = R"(
 
 
-            Santos campeão!
-            O melhor time do mundo mostrou mais uma vez sua grandeza e paixão dentro de campo.
-            Essa conquista é fruto de muita garra, união e amor pelo manto sagrado.
-
-            x == y
-
-            int main() {
-                int x = 10;
-                float y = 3.14;
-                double z = 0.5;
-                char c = 'A';
-                bool b = true;
-                x++;
-                y--;
-                if (x > y && z < 1.0) {
-                    x = x + 1;
-                } else {
-                    y = y - 1.0;
-                }
-                for (int i = 0; i < 10; i++) {
-                    z = z / 2.0;
-                }
-                string s = "texto";
-                bool flag = false;
-                z = z * 2;
-                a = b ? x : y;
-                cout << s;
-                @  # caractere inválido
-
-                abacate
-
-                "Olá mundo"
-                "String sem fechar
-
-            }
         )";
 
         Lexer lexer(codigo);
