@@ -1,0 +1,6 @@
+int main() {
+    if (x > 0 && ativo || !desligado) {
+        y = (x * 10) % 7;
+    }
+    return y;
+}

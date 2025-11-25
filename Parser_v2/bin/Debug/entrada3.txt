@@ -1,0 +1,6 @@
+int main() {
+    int x = 42, y = 0;
+    bool ativo = true, desligado = false;
+    double pi = 3.14159;
+    return y;
+}

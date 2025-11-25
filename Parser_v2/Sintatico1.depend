@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1757096617 source:c:\testes\analisadorlexico\main.cpp
+	<iostream>
+	"Lexer.h"
+
+1762903257 
+
+1757096598 source:c:\testes\analisadorlexico\src\lexer.cpp
+	"Lexer.h"
+	<stdexcept>
+
+1760994548 >
+
+1757095910 c:\testes\analisadorlexico\include\lexer.h
+	"Token.h"
+	<string>
+	<vector>
+
+1757094200 c:\testes\analisadorlexico\include\token.h
+	"TipoDeToken.h"
+	<string>
+
+1757094022 c:\testes\analisadorlexico\include\tipodetoken.h
+
+1757516095 source:c:\testes\analisadorlexicotemp\main.cpp
+	<iostream>
+	"Lexer.h"
+
+1757119272 c:\testes\analisadorlexicotemp\include\lexer.h
+	"Token.h"
+	<string>
+	<vector>
+
+1757119272 c:\testes\analisadorlexicotemp\include\token.h
+	"TipoDeToken.h"
+	<string>
+
+1757119272 c:\testes\analisadorlexicotemp\include\tipodetoken.h
+
+1757119284 source:c:\testes\analisadorlexicotemp\src\lexer.cpp
+	"Lexer.h"
+	<stdexcept>
+
+1760994649 source:c:\testes\sintatico1\main.cpp
+	<iostream>
+	"Lexer.h"
+	"Parser.h"
+
+1760991680 c:\testes\sintatico1\include\lexer.h
+	"Token.h"
+	<string>
+	<vector>
+
+1760993419 c:\testes\sintatico1\include\token.h
+	"TipoDeToken.h"
+	<string>
+
+1760993419 c:\testes\sintatico1\include\tipodetoken.h
+
+1760994547 source:c:\testes\sintatico1\src\lexer.cpp
+	"Lexer.h"
+	<stdexcept>
+
+1760994547 source:c:\testes\sintatico1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+
+1760994251 c:\testes\sintatico1\include\parser.h
+	<vector>
+	"Token.h"
+
+1760994548 source:c:\users\alunos.desktop-8slhjj7\documents\heleno\cc\sintatico1\src\lexer.cpp
+	"Lexer.h"
+	<stdexcept>
+
+1760991682 c:\users\alunos.desktop-8slhjj7\documents\heleno\cc\sintatico1\include\lexer.h
+	"Token.h"
+	<string>
+	<vector>
+
+1760993420 c:\users\alunos.desktop-8slhjj7\documents\heleno\cc\sintatico1\include\token.h
+	"TipoDeToken.h"
+	<string>
+
+1760993420 c:\users\alunos.desktop-8slhjj7\documents\heleno\cc\sintatico1\include\tipodetoken.h
+
+1762903202 source:c:\users\alunos.desktop-8slhjj7\documents\heleno\cc\sintatico1\main.cpp
+	<iostream>
+	"Lexer.h"
+	"Parser.h"
+
+1762903181 c:\users\alunos.desktop-8slhjj7\documents\heleno\cc\sintatico1\include\parser.h
+	<vector>
+	"Token.h"
+
+1762903257 source:c:\users\alunos.desktop-8slhjj7\documents\heleno\cc\sintatico1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+
+1764094324 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Parser_v2/main.cpp
+	<iostream>
+	"Lexer.h"
+	"Parser.h"
+
+1764091991 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Parser_v2/include/Lexer.h
+	"Token.h"
+	<string>
+	<vector>
+
+1764094899 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Parser_v2/include/Token.h
+	"TipoDeToken.h"
+	<string>
+
+1764091975 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Parser_v2/include/TipoDeToken.h
+
+1764095696 /home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Parser_v2/include/Parser.h
+	<vector>
+	<string>
+	"Token.h"
+
+1764092000 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Parser_v2/src/Lexer.cpp
+	"Lexer.h"
+	<stdexcept>
+	<cctype>
+	<set>
+
+1764095341 source:/home/luan/Documentos/GitHub/compiladores-trabalho-lexico/Parser_v2/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+
